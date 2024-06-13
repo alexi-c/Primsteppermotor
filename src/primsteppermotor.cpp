@@ -1,5 +1,5 @@
 #include "primsteppermotor.h"                               //Part of the library
-#include "arduino.h"                                        //Arduino Library
+#include "Arduino.h"                                        //Arduino Library
 
 Stepper::Stepper(int pinA, int pina, int pinB, int pinb) {  //How the sketch determins the 4 pins to use for the Stepper motor
   A = pinA;                                                 //Setting pin for Phase A
